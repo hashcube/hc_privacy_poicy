@@ -1,1 +1,5 @@
-# hc_privacy_policy
+# Privacy Policy For Hashcube
+
+This Repository contains hashcube Privacy Policy. 
+
+
