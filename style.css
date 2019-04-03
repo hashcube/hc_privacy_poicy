@@ -1,0 +1,15 @@
+body {
+    font-size: 17px;
+    font-family: 'Maven Pro', sans-serif;
+   /* background: #283148;
+    color: white;*/
+}
+
+.text-center {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.container-fluid {
+    max-width: 90%;
+}
