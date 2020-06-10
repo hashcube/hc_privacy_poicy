@@ -164,37 +164,34 @@
             As per FTC guidelines we have designed a neutral age screen mechanism which allows a user freely to enter month, day and year of birth.<br><br>
             For children under age 13 :
             <ul>
-                <li>
-                    We don't collect any personally identifiable information such as name, address, phone number, email address .... etc.
-                </li>
-                <li>
-                    We don't use any SDKs and  third party services that collects personal information from users.
-                </li>
-                <li>
-                    We collect advertising ID and use aggregate data of users internally to provide a better game play experience.
-                </li>
-                <li>Ads are being served exclusively from certified ad networks.<br>
+                <li>We don't collect any personally identifiable information such as name, address, phone number, email address .... etc.</li>
+                <li>We don't use any SDKs and third party services that collects personal information from users.</li>
+                <li>We collect advertising ID and use aggregate data of users internally to provide a better game play experience.</li>
+                <li>Social networking features:<br>
                     <ul>
-                        <li> List of ad networks :
-                            <ul>
-                                <li>AdColony</li>
-                                <li>AppLovin</li>
-                                <li>ChartBoost</li>
-                                <li>Google Ad Manager</li>
-                                <li>Google AdMob</li>
-                                <li>InMobi</li>
-                                <li>ironSource</li>
-                                <li>Kidoz</li>
-                                <li>StartApp</li>
-                                <li>SuperAwesome</li>
-                                <li>Unity Ads</li>
-                                <li>Vungle</li>
-                            </ul>
-                        </li>
+                        <li><b>Facebook:</b> Facebook is used to sync their data across multiple devices and it is behind neutral age gate screen. Facebook login feature will be disabled for players below 18 years. </li>
                     </ul>
                 </li>
+                <li>Ads are being served exclusively from certified ad networks. COPPA settings will be enabled in Ad networks settings.<br>List of ad networks :<br>
+                    <ul>
+                        <li><b>Google AdMob</b> - For Apps that are listed in "Designed for families category", Admob automatically restricts ad content. Child directed tag will be enabled in Admob SDK.  Admob collects Geo location information to show country specific Ads.<br>
+                            Reference Links: <a href="https://support.google.com/admob/answer/7562142">https://support.google.com/admob/answer/7562142</a><br>
+                            <a href="https://support.google.com/admob/answer/6223431?hl=en&ref_topic=7384665">https://support.google.com/admob/answer/6223431?hl=en&ref_topic=7384665</a>
+                        </li>
+                        <li><b>Ironsource</b> : Ironsource has designed its service to comply with the ftc COPPA guidelines. Data will be used to serve contextual ads, for frequency capping and for internal operations as permitted by COPPA.<br>
+                            Reference Link : <a href="https://developers.ironsrc.com/ironsource-mobile/ironsource-mobile-child-directed-apps/#step-1">https://developers.ironsrc.com/ironsource-mobile/ironsource-mobile-child-directed-apps/#step-1</a> </li>
+                    </ul>
+                </li>
+                <li>We exclude adult ad categories for each separate ad network. Networks that don’t support filtration of categories will be fully disabled. If any listed ad network violates COPPA regulations, It will be removed/disabled with immediate effect.</li>
                 <li>
-                    We exclude adult ad categories for each separate ad network. Networks that don’t support filtration of categories will be fully disabled. If any listed ad network violates COPPA regulations, It will be removed/disabled with immediate effect.
+                    <b>Crashlytics:</b><br>
+                    We use crashlytics to get to know about crash information in our product. We don’t send any specific Personally Identifiable information from our game to crashlytics.<br>
+                    However, the terms of the product are<br><a href="https://firebase.google.com/terms/crashlytics">https://firebase.google.com/terms/crashlytics</a><br>
+                    <a href="https://firebase.google.com/terms/crashlytics-app-distribution-data-processing-terms">https://firebase.google.com/terms/crashlytics-app-distribution-data-processing-terms</a>
+                </li>
+                <li>
+                    <b>Data Security</b><br>
+                    All data is stored in AWS server behind firewalls. No personal information is store in our servers for players playing on Android. HashCube also maintains separate test and production environments. Only employees with a valid login and password are given access to our servers.
                 </li>
             </ul>
         </p>
